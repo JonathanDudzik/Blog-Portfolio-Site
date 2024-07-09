@@ -1,7 +1,7 @@
 :root {
   /*
     by defining the sizes of toolbar and side menu in a var,
-    can do calcuations with them later
+    can do calculations with them later
   */
   --toolbar-height: 64px;
 }
@@ -22,7 +22,4 @@
 .moduleMain {
   grid-area: main;
   min-height: calc(100vh - var(--toolbar-height));
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
